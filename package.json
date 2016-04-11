@@ -1,0 +1,28 @@
+{
+  "name": "airport-timezone",
+  "version": "1.0.0",
+  "main": "airports.json",
+  "scripts": {
+    "update": "node update.js"
+  },
+  "author": "Derek Ekins",
+  "license": "MIT",
+  "devDependencies": {
+    "csv": "^0.4.6",
+    "httpism": "^1.14.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dereke/airport-timezone.git"
+  },
+  "keywords": [
+    "airport",
+    "timezone"
+  ],
+  "bugs": {
+    "url": "https://github.com/dereke/airport-timezone/issues"
+  },
+  "homepage": "https://github.com/dereke/airport-timezone#readme",
+  "description": "A json object containing airport codes, timezones and offsets"
+}

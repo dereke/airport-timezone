@@ -23,6 +23,7 @@ httpism.get(dataUrl).then(response => {
       airports = airports.map(airport => {
         return {
           code: airport.iata_code,
+          countryCode: airport.country_code,
           timezone: airport.timezone,
           offset: {
             gmt: parseInt(airport.gmt_offset),
